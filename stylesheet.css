@@ -1,0 +1,35 @@
+body {
+    background: url('Images/IMG_9760.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-position: center center; /* Ensures the image is centered */
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+.main-title {
+    font-family: 'Didot', serif; /* Applied Didot font */
+    font-size: 2.5em; /* Adjusted size */
+    color: white;
+    margin-bottom: 5px; /* Reduced space between title and icons */
+}
+.social-icons {
+    margin-top: 5px; /* Reduced space between icons and footer */
+}
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 30px;
+    text-decoration: none;
+}
+.footer {
+    position: absolute;
+    bottom: 10px;
+    font-size: 0.8em; /* Adjusted size for visibility */
+    color: white;
+}
